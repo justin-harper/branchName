@@ -20,7 +20,7 @@ namespace branchName
                 throw new ArgumentException("Invalid input string; is the branch name in the correct format?");
             }
 
-            System.Console.Write(matching);
+            Console.Write(matching);
         }
     }
 }
